@@ -6,6 +6,7 @@
     <title>Developer Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://kit.fontawesome.com/6cb5052b84.js" crossorigin="anonymous"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
       rel="stylesheet"
@@ -33,8 +34,9 @@
             Shot what able cold new see hold.Friendly as an betrayed formerly
             he. Morning because as to society behaved moments.
           </p>
-          <button class="generalButton">Download CV</button>
-          <button class="generalButton">Contact</button>
+          <button class="generalButton"><i class="fa-solid fa-download"></i> Download CV</button>
+          <button class="generalButton"><i class="fa-solid fa-phone"></i>
+            Contact</button>
         </div>
         <img class="profilePicture" src="/images/hardy.png" alt="" />
       </div>
@@ -195,9 +197,38 @@
             </div>
           </div>
         </div>
+        <div class="cvDownload"> <button class="generalButton"><i class="fa-solid fa-arrow-down"></i>
+          Download CV</button></div>
+       
       </section>
     </main>
 
-    <footer></footer>
+    <footer>
+
+      <section class="footSection">
+        <div class="left">
+          <h2 id="leftTitle">Lets Connect</h2>
+          <p id="leftDes">Please fill out the form on this section to contact with me or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+          <div class="socialLinks">
+            <a href=""><img src="/images/icons/facebook.png" alt=""></a>
+            <a href=""><img src="/images/icons/twitter.png" alt=""></a>
+            <a href=""><img src="/images/icons/insta.png" alt=""></a>
+          </div>
+        </div>
+
+
+        <div class="right">
+          <h2 class="rightTitle">Let’s Message me</h2>
+          <div class="inputFields">
+            <input class="ne" type="text" name="" id="" placeholder="Your Name">
+            <input class="ne" type="email" name="" id="" placeholder="Your Email">
+            <textarea  name="" id="" >Message</textarea>
+            <input class ="generalButton submitBtn" type="submit" value="Submit">
+          </div>
+        </div>
+      </section>
+
+
+    </footer>
   </body>
 </html>
