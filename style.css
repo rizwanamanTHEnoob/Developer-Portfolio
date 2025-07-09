@@ -182,7 +182,7 @@ nav ul li a {
   display: flex;
   justify-content: space-evenly;
   gap: 90px;
-  margin-left: 362px;
+  margin-left: 55px;
   /* margin-right: 277px; */
 }
 .columnTitle {
@@ -234,7 +234,7 @@ nav ul li a {
   flex-direction: column;
 }
 .left {
-  margin-left: 368px;
+  margin-left: 55px;
   margin-top: 130px;
 }
 #leftTitle {
