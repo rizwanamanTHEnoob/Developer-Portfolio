@@ -134,3 +134,85 @@ nav ul li a {
     display: flex;
     justify-content: space-around;
 }
+/* WHat i do section */
+.skillSection{
+    max-width: 1140px;
+    margin:0 auto;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.skillDes{
+  width: 909px;
+  margin: 0 auto;
+}
+.skills{
+  margin-top: 50px;
+  display: flex;
+}
+.skill{
+  margin: 0 auto;
+  /* border: 1px solid salmon; */
+  box-shadow: 0px 6px 50px 0px rgba(0, 0,0,6%);
+  padding:30px;
+}
+.skillName{
+  font-size: 20px;
+  font-weight: bold;
+  color:#181818;
+}
+.skillDescrition{
+
+  font-size: 16px;
+  font-weight: normal;
+  text-align: left;
+  color: #757575;
+  width: 204px;
+  /* height: 243px; */
+}
+/* Experience Section */
+#expTitle{
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+  text-align: center;
+  background-color: #fd6e0a;
+  margin-bottom: 113px;
+}
+.experienceContainer{
+  max-width:1140px ;
+  display: flex;
+  justify-content: space-evenly;
+  gap:90px;
+  margin-left:362px;
+  /* margin-right: 277px; */
+}
+.columnTitle{
+  font-size: 30px;
+  font-weight: bold;
+  color: #474747;
+  margin-bottom: 30px;
+}
+.experienceTitle{
+  font-size: 25px;
+  font-weight: bold;
+  color: #474747;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+.experienceSubTitle{
+  font-size: 20px;
+  font-weight: 600;
+  color: #757575;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+.experienceDescription{
+  font-size: 16px;
+  font-weight: normal;
+  color: #757575;
+  width: 511px;
+  margin-top: 20px;
+}
